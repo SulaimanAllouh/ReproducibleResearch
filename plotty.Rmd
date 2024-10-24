@@ -1,0 +1,22 @@
+---
+title: "Plotty"
+author: "Sulaiman Allouh"
+date: "2024-10-24"
+output: html_document
+---
+
+## Plotly Plot
+
+This is an example of a Plotly plot created in R.
+
+```{r setup, include=TRUE}
+library(plotly)
+
+# Create a sample plot using Plotly
+data <- data.frame(
+  x = rnorm(100),
+  y = rnorm(100)
+)
+
+plot_ly(data, x = ~x, y = ~y, type = 'scatter', mode = 'markers')
+```
