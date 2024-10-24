@@ -1,0 +1,28 @@
+---
+title: "Presentation"
+format: revealjs
+editor: visual
+---
+
+## Slide 1: Title Slide
+
+Welcome to the Shiny App Pitch Presentation.
+
+## Slide 2: Introduction
+
+This presentation introduces a simple prediction app created using Shiny.
+
+## Slide 3: Application Overview
+
+The app takes a numeric input and predicts a value by doubling it.
+
+## Slide 4: Code Example
+
+```{r}
+# Example of the prediction algorithm
+num <- 5
+predicted_value <- num * 2
+predicted_value
+
+```
+
