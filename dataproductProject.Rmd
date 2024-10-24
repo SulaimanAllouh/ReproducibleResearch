@@ -1,0 +1,19 @@
+---
+title: "index"
+author: "Sulaiman Allouh"
+date: "2024-10-24"
+output: html_document
+---
+
+## Leaflet Map
+
+This is an example of a Leaflet map created in R.
+
+```{r}
+library(leaflet)
+
+
+leaflet() %>%
+  addTiles() %>%
+    addMarkers(lng = 174.768, lat = -36.852, popup = "The birthplace of R")
+```
