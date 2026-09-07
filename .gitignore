@@ -1,0 +1,11 @@
+# R session state
+.RData
+.Rhistory
+.Ruserdata
+
+# RStudio project state
+.Rproj.user/
+
+# OS/editor noise
+.DS_Store
+Thumbs.db
